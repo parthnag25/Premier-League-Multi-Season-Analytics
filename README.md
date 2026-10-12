@@ -32,29 +32,56 @@ View the interactive dashboard on Tableau Public:
 - Champion, best attack, best defense, and clean-sheet KPI cards
 - Interactive season filtering
 
-## Data Structure
+## Dataset Structure
 
-The repository contains:
+This project uses historical Premier League match data from three consecutive seasons: 2021/22, 2022/23, and 2023/24.
 
-- `data/raw/` — original Premier League season datasets
-- `data/processed/` — cleaned and transformed Tableau-ready data
-- `tableau/` — packaged Tableau workbook
-- `images/` — dashboard preview image
+The dataset contains:
 
-## Tools Used
+* **1,140 matches:** 380 matches from each season.
+* **2,280 team-match records:** Each match is represented from both teams' perspectives.
+* **60 team-season records:** Performance summaries for 20 clubs across each of the three seasons.
 
-- Tableau Public
-- Microsoft Excel
-- Data cleaning and transformation
-- Data visualization
-- Dashboard design
+### Data Organization
 
-## Key Insights
+The processed Excel workbook contains six worksheets:
 
-- Manchester City recorded the highest points total in the 2023/24 season.
-- Arsenal matched Manchester City’s goal difference and recorded the strongest defensive performance.
-- Liverpool showed a substantial recovery in points between 2022/23 and 2023/24.
-- Strong defensive performance clearly separated the leading teams from lower-ranked clubs.
+| Worksheet           | Description                                                      |
+| ------------------- | ---------------------------------------------------------------- |
+| Project_Info        | Overview of the project and dataset                              |
+| Data_Quality        | Summary of data completeness and record counts                   |
+| Match_Level_Cleaned | Historical match results and match-level statistics              |
+| Team_Match_Level    | Team-specific match statistics, including cumulative performance |
+| Team_Summary        | Aggregated team performance metrics for each season              |
+| Column_Dictionary   | Field definitions and descriptions                               |
+
+### Key Performance Indicators
+
+The analysis includes:
+
+* Total points, wins, draws, and losses
+* Goals scored, goals conceded, and goal difference
+* Home and away performance
+* Points per match and win percentage
+* Shots, shots on target, and shot accuracy
+* Goal conversion rate
+* Clean sheets and defensive performance
+* Season-over-season team performance
+
+### Data Validation
+
+The dataset was reviewed for completeness and consistency.
+
+Validation checks confirmed:
+
+* 380 match records per season.
+* 20 clubs per season.
+* 38 matches played per team in each season.
+* No duplicate match IDs.
+* No missing values in the essential match identification, team, score, and result fields reviewed.
+* Consistent calculations for points, match results, and goal difference across all 60 team-season records.
+
+These checks support the reliability of the dataset for descriptive performance analysis.
 
 ## Seasons Analyzed
 
