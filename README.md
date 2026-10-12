@@ -2,9 +2,16 @@
 
 ## Project Overview
 
-This project analyzes Premier League team performance across the 2021/22, 2022/23, and 2023/24 seasons.
+This project explores Premier League team performance across three consecutive seasons: 2021/22, 2022/23, and 2023/24.
 
-Raw match-level datasets were cleaned and transformed into team-level metrics for analyzing points, goal difference, attacking and defensive performance, and changes across seasons.
+As a football enthusiast and Manchester City supporter, I wanted to go beyond league standings and understand how different teams performed across multiple seasons.
+
+Using historical Premier League match data, I analyzed key performance indicators such as total points, goals scored, goals conceded, goal difference, and defensive performance.
+
+I used Microsoft Excel for data preparation and Tableau to develop an interactive dashboard that allows users to compare teams, explore seasonal trends, and identify patterns in overall performance.
+
+The goal of this project was to combine my interest in football with practical data analytics skills, focusing on data preparation, performance measurement, visualization, and communicating insights.
+
 
 ## Dashboard Preview
 
