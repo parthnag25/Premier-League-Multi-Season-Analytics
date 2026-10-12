@@ -88,3 +88,47 @@ These checks support the reliability of the dataset for descriptive performance 
 - 2021/22
 - 2022/23
 - 2023/24
+
+## Key Analytical Insights
+
+### 1. Manchester City's Consistent Performance
+
+Manchester City finished first in all three seasons analyzed, earning 93 points in 2021/22, 89 in 2022/23, and 91 in 2023/24.
+
+Despite fluctuations in goals scored and conceded, City maintained consistently high points totals, demonstrating strong performance across multiple seasons.
+
+### 2. Arsenal's Significant Improvement
+
+Arsenal improved from 69 points in 2021/22 to 89 points in 2023/24, representing a 20-point increase.
+
+During the same period:
+
+* Goals scored increased from 61 to 91.
+* Goals conceded decreased from 48 to 29.
+* Goal difference improved from +13 to +62.
+* League position improved from fifth to second.
+
+These results highlight improvements in both attacking and defensive performance.
+
+### 3. Liverpool's Performance Recovery
+
+Liverpool recovered from a fifth-place finish with 67 points in 2022/23 to a third-place finish with 82 points in 2023/24.
+
+The team also improved its goal difference from +28 to +45, reflecting stronger overall attacking and defensive results.
+
+### 4. Manchester City vs. Arsenal: 2023/24
+
+Manchester City and Arsenal finished the 2023/24 season with identical goal differences of +62.
+
+However, Manchester City earned 91 points compared with Arsenal's 89.
+
+Both teams recorded 28 wins, but City secured seven draws compared with Arsenal's five.
+
+This comparison demonstrates how differences in match outcomes can affect final league standings even when teams have identical goal differences.
+
+### Overall Finding
+
+The three-season analysis highlights how league performance depends on the combination of match results, attacking output, and defensive effectiveness.
+
+The findings demonstrate the value of comparing multiple performance indicators rather than relying exclusively on league position or total points.
+
